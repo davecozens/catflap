@@ -1,0 +1,11 @@
+{
+  "name": "catflap",
+  "version": "0.1.0",
+  "description": "One front door for everything running on this Mac: .local names for each service, a proxy on port 80, and a directory",
+  "type": "module",
+  "bin": { "catflap": "bin/catflap.js" },
+  "engines": { "node": ">=20" },
+  "os": ["darwin"],
+  "scripts": { "start": "node bin/catflap.js serve", "test": "node --test" },
+  "license": "MIT"
+}
